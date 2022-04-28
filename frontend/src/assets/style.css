@@ -1,0 +1,786 @@
+/**********************
+      common page
+               ************************/
+html,
+body {
+  margin: 0;
+  width: 100% auto;
+  height: 100% auto;
+  font-family: sans-serif;
+}
+/****************** 
+      Home Page 
+             ************************/
+
+/***************   Header  **************/
+#root {
+  margin: 0;
+  width: 100% auto;
+  height: 100% auto;
+  font-family: sans-serif;
+}
+.header {
+  width: 100%;
+  position: relative;
+}
+.container {
+  display: flex;
+}
+
+.header {
+  top: 10px;
+  width: 100%;
+  display: flex;
+  margin: 0%;
+}
+.checkin {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+.header ul {
+  display: flex;
+  width: 15%;
+  align-items: center;
+  list-style: none;
+}
+
+.header a .logo1 {
+  margin: auto 0.5% auto 3%;
+  color: #f76028;
+  font-size: 23px;
+  text-decoration: none;
+}
+.header a .logo2 {
+  margin: auto 0;
+  color: #707070;
+  font-size: 23px;
+  text-decoration: none;
+}
+.header li {
+  color: #4a4a4a;
+  width: 50%;
+}
+.header li img {
+  width: 30%;
+}
+.header a {
+  display: flex;
+  text-decoration: none;
+}
+.checkin a {
+  text-decoration: none;
+  color: #4a4a4a;
+}
+
+/*************** Middle Section ***************/
+.images {
+  width: 100%;
+  position: relative;
+}
+.images .left {
+  margin-left: -0.5%;
+  z-index: 3;
+  width: 58%;
+}
+.images .right {
+  bottom: 5.5px;
+  position: absolute;
+  right: 0;
+  z-index: 1;
+  width: 64.5%;
+}
+.images .text {
+  position: absolute;
+  z-index: 4;
+  left: 6%;
+  top: 20%;
+}
+.text .text2 {
+  margin: 0%;
+  color: #e4e4e4;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 50px;
+}
+.text .text1 {
+  color: #e4e4e4;
+  margin: 0%;
+  font-size: 100px;
+}
+
+.photos {
+  display: flex;
+  margin: 1%;
+}
+.pic {
+  /*  width: 100%; */
+  height: 186px;
+}
+ul.items {
+  list-style: none;
+}
+
+.title {
+  position: relative;
+  width: 99%;
+  margin-left: 1%;
+}
+
+.title h4 {
+  margin-top: 1%;
+}
+.inside {
+  display: flex;
+  position: absolute;
+  justify-content: space-between;
+  width: 95%;
+  bottom: 0%;
+}
+.inside button {
+  background-color: #f76028;
+  color: white;
+  border: none;
+  width: 12%;
+  height: 42px;
+  border-radius: 5px;
+}
+.inside .incr-decr {
+  background-color: #f76028;
+  color: white;
+  border: none;
+  width: 108px;
+  border-radius: 5px;
+}
+
+.end {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+.end p {
+  margin-left: 59%;
+  font-size: 28px;
+  color: #4a4a4a;
+}
+.end a {
+  width: 15%;
+}
+.end button {
+  padding: 15px;
+  background-color: #f76028;
+  color: white;
+  border-style: none;
+  margin-top: 5%;
+  font-size: 25px;
+}
+.pictures p {
+  color: #4a4a4a;
+}
+.pictures {
+  border: solid #f76028;
+  border-radius: 10px;
+  margin: 4%;
+  margin-bottom: 7%;
+}
+
+.product {
+  width: 25%;
+  height: 215px;
+  display: flex;
+  justify-content: space-evenly;
+}
+/************ for cart page **************/
+.content .pictures {
+  display: flex;
+  border: solid #f76028;
+  border-radius: 10px;
+  margin: 4%;
+  margin-bottom: 7%;
+}
+.content h1 {
+  font-size: 30px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  color: #313636;
+  margin-left: 7%;
+}
+
+/******************* Footer *****************/
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background-color: #fff;
+  z-index: 2;
+  border: 1 px solid grey;
+  width: 100%;
+}
+/***********
+         Sign-Up Page
+              ************/
+.pop {
+  position: fixed;
+  z-index: 4;
+  background-color: rgba(0, 0, 0, 0.2);
+  top: 0;
+  height: 100%;
+  width: 100%;
+}
+.form {
+  border-radius: 1%;
+  position: relative;
+  bottom: 12%;
+  left: 37%;
+  top: 16%;
+  width: 30%;
+  bottom: 24%;
+  background-color: #ffffff;
+}
+
+.logo1 span {
+  margin-right: 2%;
+  color: #f76028;
+  font-size: 27px;
+}
+.pop .logo1 {
+  font-family: Bebas Neue;
+  padding-top: 16%;
+  margin-left: 25%;
+  margin-bottom: 2%;
+  color: #495050;
+  font-size: 27px;
+}
+.pop .logo2 {
+  margin: 0 0;
+  margin-left: 30%;
+  font-family: Roboto;
+  color: #495050;
+  font-size: 18px;
+  font-weight: bold;
+}
+form {
+  margin: auto 10%;
+}
+form .form_head {
+  margin: auto 19%;
+}
+img.cancel-image {
+  width: 5%;
+  position: absolute;
+  right: 3%;
+}
+form input {
+  width: 87%;
+  padding: 6%;
+}
+form button {
+  color: #ffffff;
+  border-style: none;
+  width: 100%;
+  background-color: #f76028;
+  padding: 15px;
+  margin-top: 6%;
+}
+
+.member {
+  padding-left: 15%;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  text-decoration: none;
+  color: #495050;
+  font-size: 18px;
+}
+.member a {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  text-decoration: none;
+  color: #495050;
+  font-size: 18px;
+}
+/*****************
+           Sign-In Page
+                    ********************/
+
+.Sign-In-form {
+  border-radius: 1%;
+  position: relative;
+  bottom: 12%;
+  left: 37%;
+  top: 16%;
+  width: 30%;
+  bottom: 24%;
+  background-color: #ffffff;
+}
+.Sign-In-member {
+  padding-top: 3%;
+  padding-left: 15%;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+
+  color: #495050;
+  font-size: 18px;
+}
+.Sign-In-member a {
+  color: #495050;
+}
+
+/**************
+             order page 
+                   ***************************/
+.top {
+  position: relative;
+  width: 100%;
+  height: 150px;
+  background-color: #f76028;
+}
+.top p {
+  color: #fff;
+  position: absolute;
+  left: 37%;
+  top: 16%;
+  font-size: 30px;
+}
+.details {
+  width: 100%;
+  height: 100%;
+}
+.details form {
+  position: relative;
+  left: 11%;
+  padding-top: 4%;
+}
+.details form input {
+  width: 40%;
+  padding: 1%;
+  background-color: #eaeaea;
+  border-style: none;
+  margin-bottom: 2%;
+}
+
+.details form button {
+  color: #ffffff;
+  border-style: none;
+  width: 25%;
+  height: 55px;
+  margin: auto;
+  font-size: 15px;
+  background-color: #f76028;
+}
+.shipment {
+  margin-left: 21%;
+
+  padding-top: 3%;
+}
+.shipment table td {
+  padding: 3% 0% 0% 0%;
+  color: #f76028;
+  font-size: 12px;
+}
+tr .total td {
+  border: 1px solid #f76028;
+}
+.shipment .widder-td {
+  width: 76%;
+}
+.shipment .widder-td2 {
+  width: 15%;
+}
+
+.shipment table .total td {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #313636;
+  font-weight: bold;
+  font-size: 15px;
+  border-top: 1px solid #f76028;
+  padding-top: 2%;
+}
+/************ Thank You page ************************/
+.thanking button {
+  color: #ffffff;
+  border-style: none;
+  width: 25%;
+  height: 55px;
+  margin: 10% 15%;
+  font-size: 15px;
+  background-color: #f76028;
+}
+.thanking button a {
+  text-decoration: none;
+  color: #fff;
+}
+.thanking {
+  margin-left: 30%;
+  padding-top: 4%;
+}
+.thanking p {
+  color: #313636;
+  font-size: 25px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+@media screen and(max-width: 360px) {
+  .main ul {
+    margin-right: -7%;
+    width: 134px;
+  }
+  .inside {
+    bottom: -21%;
+  }
+  .inside p {
+    margin-top: 12px;
+    font-size: 18px;
+  }
+  .main li img {
+    width: 25px;
+  }
+  .inside button {
+    width: 78px;
+    margin-top: 4px;
+    height: 33px;
+  }
+  .end p {
+    margin-left: 25%;
+    font-size: 18px;
+  }
+  .end button {
+    height: 38px;
+    margin-top: 3%;
+  }
+  .end {
+    margin-top: 6%;
+  }
+}
+@media screen and(max-width:320px) {
+  .end p {
+    margin-left: 15%;
+  }
+  .inside button {
+    width: 32px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .header ul {
+    width: 40%;
+  }
+  .header li img {
+    width: 27%;
+    margin-left: 9%;
+  }
+  .images .text {
+    left: 4%;
+    top: 0%;
+  }
+  .images .left {
+    width: 59%;
+  }
+  #high {
+    margin-top: 14%;
+  }
+  .text .text2 {
+    font-size: 15px;
+  }
+  .text .text1 {
+    font-size: 34px;
+  }
+  .product {
+    height: 85px;
+  }
+  .pic {
+    height: 76px;
+  }
+  .pictures {
+    margin-left: 1%;
+  }
+  .pictures p {
+    font-size: 12px;
+  }
+  .inside {
+    bottom: -13%;
+  }
+  .inside button {
+    width: 26%;
+    height: 26px;
+  }
+  .title {
+    margin-left: 4%;
+  }
+  .title h4 {
+    margin-top: 0%;
+  }
+  .photos {
+    margin: 4%;
+  }
+  .inside .incr-decr {
+    width: 90px;
+  }
+  .end button {
+    font-size: 11px;
+    margin-top: 2%;
+  }
+  .end a {
+    width: 30%;
+  }
+  .end p {
+    margin-left: 20%;
+    font-size: 19px;
+  }
+  .header {
+    width: 100%;
+  }
+  /********Sign-Up-page***************/
+  form {
+    left: 18%;
+  }
+  .form {
+    width: 75%;
+    left: 12%;
+    top: 10%;
+  }
+  .pop .logo1 {
+    font-size: 28px;
+  }
+  .pop .logo2 {
+    font-size: 20px;
+  }
+  .logo1 span {
+    font-size: 30px;
+  }
+  form input {
+    width: 85%;
+    padding: 7%;
+  }
+  form .member,
+  a {
+    font-size: 15px;
+  }
+  form button {
+    width: 100%;
+  }
+  /***************** Sign-In Page *******************/
+  .Sign-In-form {
+    height: auto;
+    width: 75%;
+    left: 12%;
+  }
+  .Sign-In-member {
+    font-size: 14px;
+  }
+  /**************Shipment ************************/
+  .top {
+    height: 100px;
+  }
+  .top p {
+    left: 17%;
+    top: 20%;
+    font-size: 20px;
+  }
+  .shipment {
+    margin-left: 12%;
+  }
+  .details .form {
+    left: 3%;
+  }
+  .details form input {
+    width: auto;
+  }
+  .thanking {
+    margin-left: 12%;
+    padding-top: 7%;
+  }
+  .thanking p {
+    font-size: 14px;
+  }
+  .thanking button {
+    width: 40%;
+  }
+}
+@media screen and (min-width: 501px) and (max-width: 750px) {
+  .header ul {
+    width: 32%;
+  }
+  .images .left {
+    width: 59%;
+  }
+  .images .text {
+    top: 0%;
+    left: 1%;
+  }
+  .product {
+    height: 121px;
+  }
+  .pic {
+    height: 100px;
+  }
+  .pictures {
+    margin-bottom: 20%;
+  }
+  #high {
+    margin-top: 8%;
+  }
+  .text .text2 {
+    font-size: 23px;
+  }
+  .text .text1 {
+    font-size: 43px;
+  }
+  .inside button {
+    width: 20%;
+  }
+  .end {
+    height: 10%;
+  }
+  .end p {
+    margin-left: 30%;
+  }
+  .end a {
+    width: 30%;
+  }
+  .end button {
+    font-size: 15px;
+    margin-top: 10%;
+    margin-left: 30%;
+  }
+  .content .pictures {
+    margin-bottom: 20%;
+  }
+  /********Sign-Up-page***************/
+  .form {
+    top: 10%;
+    width: 68%;
+    left: 15%;
+  }
+  .pop .logo1 {
+    font-size: 24px;
+  }
+  .pop .logo2 {
+    font-size: 15px;
+  }
+  .logo1 span {
+    font-size: 24px;
+  }
+  form .member,
+  a {
+    font-size: 20px;
+  }
+  /************* Sign-In-Page ***************/
+  .Sign-In-form {
+    width: 68%;
+    left: 15%;
+    height: auto;
+  }
+  form input {
+    padding: 7%;
+  }
+  /******************order page******************/
+  .details form input {
+    width: 60%;
+  }
+  /************ Thank You page ************************/
+  .top p {
+    left: 26%;
+    top: 25%;
+    font-size: 25px;
+  }
+  .thanking p {
+    font-size: 20px;
+  }
+  .thanking {
+    margin-left: 18%;
+  }
+  .thanking button {
+    width: 33%;
+    margin: 10% 22%;
+  }
+}
+
+@media screen and (min-width: 751px) and (max-width: 1024px) {
+  .inside p {
+    font-size: 24px;
+  }
+  .header ul {
+    width: 22%;
+  }
+  .photos {
+    margin-left: 5%;
+    margin-bottom: 3%;
+  }
+  .title h4 {
+    font-size: 22px;
+    margin-top: 0%;
+  }
+  .inside button {
+    width: 18%;
+    margin-right: 2.5%;
+    height: 44px;
+    margin-top: 4%;
+  }
+  .end button {
+    margin-right: 5.5%;
+    margin-top: 10%;
+    font-size: 13px;
+  }
+  .end p {
+    margin-left: 45%;
+  }
+  .text .text2 {
+    font-size: 30px;
+  }
+  .text .text1 {
+    font-size: 60px;
+  }
+  .end {
+    font-size: 15px;
+  }
+  .end a {
+    width: 18%;
+  }
+  .product {
+    height: 175px;
+  }
+  .pic {
+    height: 150px;
+  }
+  .pictures {
+    margin-bottom: 20%;
+  }
+  .content .pictures {
+    margin-bottom: 18%;
+  }
+  /************sing-up-page***********/
+  .form {
+    height: auto;
+    width: 46%;
+    left: 30%;
+    top: 20%;
+  }
+  .form .member,
+  a {
+    font-size: 17px;
+  }
+  form button {
+    width: 100%;
+  }
+  form input {
+    padding: 6%;
+  }
+  /************* Sign-In-Page ***************/
+  .Sign-In-form {
+    height: auto;
+    width: 46%;
+    left: 30%;
+    top: 20%;
+  }
+  /************ Thank You page ************************/
+  .top p {
+    left: 28%;
+  }
+  .thanking p {
+    font-size: 22px;
+  }
+  .thanking {
+    margin-left: 23%;
+  }
+}
